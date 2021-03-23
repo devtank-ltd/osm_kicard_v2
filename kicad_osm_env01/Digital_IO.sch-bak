@@ -32,7 +32,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3425 4000 3875
 $Comp
-L ESP32-EVB_Rev_D-rescue:BAV99-Diode D16
+L OSM_env01-rescue:BAV99-Diode-ESP32-EVB_Rev_D-rescue D16
 U 2 1 5C6F6973
 P 4000 3275
 AR Path="/5C358B39/5C6F6973" Ref="D16"  Part="2" 
@@ -47,7 +47,7 @@ F 4 "134-001" H 4000 3275 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-EVB_Rev_D-rescue:BAV99-Diode D16
+L OSM_env01-rescue:BAV99-Diode-ESP32-EVB_Rev_D-rescue D16
 U 1 1 5C6F6981
 P 4050 5075
 AR Path="/5C358B39/5C6F6981" Ref="D16"  Part="1" 
@@ -70,7 +70,7 @@ Connection ~ 3800 3675
 Wire Wire Line
 	3650 3675 3800 3675
 $Comp
-L ESP32-EVB_Rev_D-rescue:BAV99-Diode D14
+L OSM_env01-rescue:BAV99-Diode-ESP32-EVB_Rev_D-rescue D14
 U 1 1 5C6F69AD
 P 3850 5075
 AR Path="/5C358B39/5C6F69AD" Ref="D14"  Part="1" 
@@ -85,7 +85,7 @@ F 4 "134-001" H 3850 5075 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-EVB_Rev_D-rescue:BAV99-Diode D14
+L OSM_env01-rescue:BAV99-Diode-ESP32-EVB_Rev_D-rescue D14
 U 2 1 5C6F69B4
 P 3800 3275
 AR Path="/5C358B39/5C6F69B4" Ref="D14"  Part="2" 
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3875 5875 3875
 $Comp
-L ESP32-EVB_Rev_D-rescue:R-device R52
+L OSM_env01-rescue:R-device-ESP32-EVB_Rev_D-rescue R52
 U 1 1 5E0C2504
 P 3500 3675
 F 0 "R52" V 3293 3675 50  0000 C CNN
@@ -154,7 +154,7 @@ F 3 "" H 3500 3675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-EVB_Rev_D-rescue:R-device R53
+L OSM_env01-rescue:R-device-ESP32-EVB_Rev_D-rescue R53
 U 1 1 5E0C53CF
 P 3500 3875
 F 0 "R53" V 3600 3875 50  0000 C CNN
