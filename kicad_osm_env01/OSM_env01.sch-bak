@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L OSM_env01-rescue:R-device-ESP32-EVB_Rev_D-rescue R15
-U 1 1 5E2C21F3
-P 3900 5900
-F 0 "R15" H 3970 5946 50  0000 L CNN
-F 1 "4.7K" H 3970 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 5900 50  0001 C CNN
-F 3 "" H 3900 5900 50  0001 C CNN
-	1    3900 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L OSM_env01-rescue:R-device-ESP32-EVB_Rev_D-rescue R19
-U 1 1 5E2C4D44
-P 5175 5925
-F 0 "R19" H 5245 5971 50  0000 L CNN
-F 1 "4.7K" H 5245 5880 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5105 5925 50  0001 C CNN
-F 3 "" H 5175 5925 50  0001 C CNN
-	1    5175 5925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 5375 1075 5375
 Text Label 1075 5375 0    50   ~ 0
@@ -261,40 +239,6 @@ Wire Wire Line
 	4025 9900 4925 9900
 Text Notes 4100 6525 0    118  ~ 24
 STM I2C Pullup
-$Comp
-L power:+3V3 #PWR031
-U 1 1 5F2170C2
-P 3900 5725
-F 0 "#PWR031" H 3900 5575 50  0001 C CNN
-F 1 "+3V3" H 3915 5898 50  0000 C CNN
-F 2 "" H 3900 5725 50  0001 C CNN
-F 3 "" H 3900 5725 50  0001 C CNN
-	1    3900 5725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 5750 3900 5725
-Wire Wire Line
-	3900 6050 4350 6050
-Text Label 4350 6050 2    50   ~ 0
-ESP_SDA
-$Comp
-L power:+3V3 #PWR032
-U 1 1 5F274B74
-P 5175 5750
-F 0 "#PWR032" H 5175 5600 50  0001 C CNN
-F 1 "+3V3" H 5190 5923 50  0000 C CNN
-F 2 "" H 5175 5750 50  0001 C CNN
-F 3 "" H 5175 5750 50  0001 C CNN
-	1    5175 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5175 5775 5175 5750
-Wire Wire Line
-	5175 6075 5625 6075
-Text Label 5625 6075 2    50   ~ 0
-ESP_SCL
 Wire Wire Line
 	2375 5625 2775 5625
 Wire Wire Line
@@ -1642,32 +1586,6 @@ Wire Wire Line
 	14900 7100 15500 7100
 $Comp
 L OSM_env01-rescue:Test_Point-Connector-ESP32-EVB_Rev_D-rescue TP?
-U 1 1 60A14B46
-P 5625 6075
-AR Path="/60688D25/60A14B46" Ref="TP?"  Part="1" 
-AR Path="/60A14B46" Ref="TP66"  Part="1" 
-F 0 "TP66" V 5625 6350 50  0000 C CNN
-F 1 "Test_Point" V 5729 6147 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5825 6075 50  0001 C CNN
-F 3 "~" H 5825 6075 50  0001 C CNN
-	1    5625 6075
-	0    1    1    0   
-$EndComp
-$Comp
-L OSM_env01-rescue:Test_Point-Connector-ESP32-EVB_Rev_D-rescue TP?
-U 1 1 60A2759E
-P 4350 6050
-AR Path="/60688D25/60A2759E" Ref="TP?"  Part="1" 
-AR Path="/60A2759E" Ref="TP65"  Part="1" 
-F 0 "TP65" V 4350 6325 50  0000 C CNN
-F 1 "Test_Point" V 4454 6122 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4550 6050 50  0001 C CNN
-F 3 "~" H 4550 6050 50  0001 C CNN
-	1    4350 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L OSM_env01-rescue:Test_Point-Connector-ESP32-EVB_Rev_D-rescue TP?
 U 1 1 60AA236A
 P 4350 7175
 AR Path="/60688D25/60AA236A" Ref="TP?"  Part="1" 
@@ -1906,65 +1824,6 @@ F 3 "~" H 7325 4175 50  0001 C CNN
 	1    7125 4175
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x06 J6
-U 1 1 60BE6129
-P -250 3725
-F 0 "J6" H -170 3717 50  0000 L CNN
-F 1 "Conn_01x06" H -170 3626 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H -250 3725 50  0001 C CNN
-F 3 "~" H -250 3725 50  0001 C CNN
-	1    -250 3725
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0134
-U 1 1 60BE96F1
-P -625 3425
-F 0 "#PWR0134" H -625 3275 50  0001 C CNN
-F 1 "+3V3" H -610 3598 50  0000 C CNN
-F 2 "" H -625 3425 50  0001 C CNN
-F 3 "" H -625 3425 50  0001 C CNN
-	1    -625 3425
-	1    0    0    -1  
-$EndComp
-$Comp
-L OSM_env01:GND #PWR0139
-U 1 1 60BE9B36
-P -625 4125
-F 0 "#PWR0139" H -625 3875 50  0001 C CNN
-F 1 "GND" H -620 3952 50  0000 C CNN
-F 2 "" H -625 4125 60  0000 C CNN
-F 3 "" H -625 4125 60  0000 C CNN
-	1    -625 4125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-450 3625 -625 3625
-Wire Wire Line
-	-625 3625 -625 4125
-Wire Wire Line
-	-450 3525 -625 3525
-Wire Wire Line
-	-625 3525 -625 3425
-Wire Wire Line
-	-450 4025 -1075 4025
-Wire Wire Line
-	-450 3925 -1075 3925
-Text Label -1075 4025 0    50   ~ 0
-ESP_EN
-Text Label -1075 3925 0    50   ~ 0
-ESP_IO0
-Wire Wire Line
-	-450 3825 -1075 3825
-Wire Wire Line
-	-450 3725 -1075 3725
-Text Label -1075 3825 0    50   ~ 0
-RS232_TX
-Text Label -1075 3725 0    50   ~ 0
-RS232_RX
-Text Notes -975 3150 0    50   ~ 0
-ESP Programming \nheader\n
 Wire Wire Line
 	14900 6475 15200 6475
 Text Label 15200 6475 2    50   ~ 0
@@ -1977,8 +1836,6 @@ Text Notes 13125 725  0    118  ~ 24
 STM
 Text Notes 1325 4975 0    118  ~ 24
 USB Debug\n
-Text Notes 4150 5275 0    118  ~ 24
-ESP I2C Pullup
 Text Notes 7325 5175 0    118  ~ 24
 LORA\n
 Text Notes 6675 6850 0    118  ~ 24
