@@ -1,0 +1,44 @@
+### Module positions - created on Wed 29 Sep 2021 14:40:20 BST ###
+### Printed by Pcbnew version kicad 5.1.5+dfsg1-2build2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                   PosX       PosY       Rot  Side
+BAT1      18650        BatteryHolder_Keystone_1042_1x18650    43.7040    63.5320   90.0000  top
+C25       1uF          C_0402_1005Metric                      24.6540    33.9320  180.0000  top
+C26       100nF        C_0402_1005Metric                      71.8040   106.9320   90.0000  top
+C31       DNF          C_0603_1608Metric                      21.2540    34.9320   90.0000  top
+C32       DNF          C_0402_1005Metric                      23.6540    27.5320    0.0000  top
+C33       100nF        C_0402_1005Metric                      70.6040   106.9320   90.0000  top
+C34       10uF         C_0603_1608Metric                      67.4040   106.9320   90.0000  top
+C35       10uF         C_0603_1608Metric                      69.2040   106.9320   90.0000  top
+C39       100nF        C_0402_1005Metric                      79.2840    78.3620  270.0000  top
+C40       22uF         C_0805_2012Metric                      59.5040    74.2820   90.0000  top
+C41       100nF        C_0402_1005Metric                      57.9040    73.5320   90.0000  top
+C42       10nF         C_0402_1005Metric                      56.7040    73.5320   90.0000  top
+C46       DNF          CP_Elec_4x5.4                          27.2540    25.9320  270.0000  top
+C57       100nF        C_0402_1005Metric                      59.4040    76.7320  180.0000  top
+C63       1uF          C_0402_1005Metric                      24.5690    28.7320  180.0000  top
+C70       100nF        C_0402_1005Metric                      77.2040   108.1320    0.0000  top
+C71       10uF         CP_Elec_4x5.4                          29.4040   105.3320   90.0000  top
+D9        RB160M-40TR  D_SOD-123                              27.2540    31.9320  270.0000  top
+F1        Fiducial     Fiducial_1mm_Mask2mm                   88.9040    97.2320    0.0000  top
+F2        Fiducial     Fiducial_1mm_Mask2mm                   30.9040    19.2320    0.0000  top
+J3        USB_B_Micro  MOLEX_105017-0001_USB_B                14.5540    45.1320  270.0000  top
+L3        2A/0.05DCR   L_0402_1005Metric                      78.1540    78.3820  270.0000  top
+L4        2A/0.05DCR   L_0402_1005Metric                      67.5190   104.7320  180.0000  top
+R5        DNF          R_0603_1608Metric                      70.2040    86.5320  270.0000  top
+R7        DNF          R_0603_1608Metric                      71.8040    86.5320  270.0000  top
+R14       0R           R_0603_1608Metric                      74.2040    86.5320  270.0000  top
+R17       0R           R_0603_1608Metric                      75.8040    86.5320  270.0000  top
+R32       0R           R_0603_1608Metric                      22.8540    34.9320  270.0000  top
+R39       0R           R_0603_1608Metric                      62.3040    79.0320   90.0000  top
+R40       100k         R_0603_1608Metric                      59.0040    81.4320    0.0000  top
+R60       0R           R_0805_2012Metric                      29.6040    31.3320  270.0000  top
+R96       DNF          R_0603_1608Metric                      81.6840    73.1620   90.0000  top
+R97       100k         R_0603_1608Metric                      83.2840    73.1620  270.0000  top
+R99       100k         R_0603_1608Metric                      78.2840    76.5620  180.0000  top
+R123      10k          R_0603_1608Metric                      77.8040   106.7320  180.0000  top
+TH2       10K          R_1206_3216Metric                      43.7040    63.5320    0.0000  top
+U4        MIC5219-3.3  SOT-23-5                               24.0540    31.3320  270.0000  top
+U12       MIC94073YC6  SOT-363_SC-70-6                        60.0040    78.9320  270.0000  top
+## End

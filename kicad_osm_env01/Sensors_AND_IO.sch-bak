@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title "Open Smart Monitor"
-Date "2021-09-22"
+Date "2021-09-29"
 Rev "B"
 Comp "Devtank LTD"
-Comment1 "AB"
+Comment1 "Part No: 304-010"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1249,7 +1249,7 @@ AR Path="/60A49311" Ref="TP?"  Part="1"
 AR Path="/608F4675/60A49311" Ref="TP48"  Part="1" 
 F 0 "TP48" H 4325 6250 50  0000 C CNN
 F 1 "Test_Point" V 4400 6250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4525 6025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4525 6025 50  0001 C CNN
 F 3 "~" H 4525 6025 50  0001 C CNN
 	1    4325 6025
 	1    0    0    -1  
